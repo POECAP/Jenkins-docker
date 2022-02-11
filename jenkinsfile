@@ -1,7 +1,7 @@
 node {
     def app
 
-    stage('Nom de l'étape : ') {
+    stage('Nom de l'étape pipeline ') {
         checkout scm
     }
 
